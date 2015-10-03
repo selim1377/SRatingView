@@ -13,18 +13,8 @@
 		8FDEA6BA1BC05057000A0372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA6B81BC05057000A0372 /* Main.storyboard */; };
 		8FDEA6BC1BC05057000A0372 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA6BB1BC05057000A0372 /* Images.xcassets */; };
 		8FDEA6BF1BC05057000A0372 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA6BD1BC05057000A0372 /* LaunchScreen.xib */; };
-		8FDEA6CB1BC05057000A0372 /* RatingViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEA6CA1BC05057000A0372 /* RatingViewExampleTests.m */; };
+		8FDEA6D61BC0506F000A0372 /* SRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEA6D51BC0506F000A0372 /* SRatingView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8FDEA6C51BC05057000A0372 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8FDEA6A31BC05057000A0372 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8FDEA6AA1BC05057000A0372;
-			remoteInfo = RatingViewExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8FDEA6AB1BC05057000A0372 /* RatingViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +27,14 @@
 		8FDEA6B91BC05057000A0372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FDEA6BB1BC05057000A0372 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8FDEA6BE1BC05057000A0372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8FDEA6C41BC05057000A0372 /* RatingViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDEA6C91BC05057000A0372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FDEA6CA1BC05057000A0372 /* RatingViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingViewExampleTests.m; sourceTree = "<group>"; };
+		8FDEA6D41BC0506F000A0372 /* SRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRatingView.h; sourceTree = "<group>"; };
+		8FDEA6D51BC0506F000A0372 /* SRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRatingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8FDEA6A81BC05057000A0372 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FDEA6C11BC05057000A0372 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				8FDEA6AB1BC05057000A0372 /* RatingViewExample.app */,
-				8FDEA6C41BC05057000A0372 /* RatingViewExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +68,8 @@
 				8FDEA6B31BC05057000A0372 /* AppDelegate.m */,
 				8FDEA6B51BC05057000A0372 /* ViewController.h */,
 				8FDEA6B61BC05057000A0372 /* ViewController.m */,
+				8FDEA6D41BC0506F000A0372 /* SRatingView.h */,
+				8FDEA6D51BC0506F000A0372 /* SRatingView.m */,
 				8FDEA6B81BC05057000A0372 /* Main.storyboard */,
 				8FDEA6BB1BC05057000A0372 /* Images.xcassets */,
 				8FDEA6BD1BC05057000A0372 /* LaunchScreen.xib */,
@@ -139,24 +124,6 @@
 			productReference = 8FDEA6AB1BC05057000A0372 /* RatingViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8FDEA6C31BC05057000A0372 /* RatingViewExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8FDEA6D11BC05057000A0372 /* Build configuration list for PBXNativeTarget "RatingViewExampleTests" */;
-			buildPhases = (
-				8FDEA6C01BC05057000A0372 /* Sources */,
-				8FDEA6C11BC05057000A0372 /* Frameworks */,
-				8FDEA6C21BC05057000A0372 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8FDEA6C61BC05057000A0372 /* PBXTargetDependency */,
-			);
-			name = RatingViewExampleTests;
-			productName = RatingViewExampleTests;
-			productReference = 8FDEA6C41BC05057000A0372 /* RatingViewExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +135,6 @@
 				TargetAttributes = {
 					8FDEA6AA1BC05057000A0372 = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					8FDEA6C31BC05057000A0372 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 8FDEA6AA1BC05057000A0372;
 					};
 				};
 			};
@@ -189,7 +152,6 @@
 			projectRoot = "";
 			targets = (
 				8FDEA6AA1BC05057000A0372 /* RatingViewExample */,
-				8FDEA6C31BC05057000A0372 /* RatingViewExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +167,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FDEA6C21BC05057000A0372 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -222,26 +177,11 @@
 				8FDEA6B71BC05057000A0372 /* ViewController.m in Sources */,
 				8FDEA6B41BC05057000A0372 /* AppDelegate.m in Sources */,
 				8FDEA6B11BC05057000A0372 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FDEA6C01BC05057000A0372 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FDEA6CB1BC05057000A0372 /* RatingViewExampleTests.m in Sources */,
+				8FDEA6D61BC0506F000A0372 /* SRatingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8FDEA6C61BC05057000A0372 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8FDEA6AA1BC05057000A0372 /* RatingViewExample */;
-			targetProxy = 8FDEA6C51BC05057000A0372 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8FDEA6B81BC05057000A0372 /* Main.storyboard */ = {
@@ -365,40 +305,6 @@
 			};
 			name = Release;
 		};
-		8FDEA6D21BC05057000A0372 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RatingViewExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RatingViewExample.app/RatingViewExample";
-			};
-			name = Debug;
-		};
-		8FDEA6D31BC05057000A0372 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RatingViewExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RatingViewExample.app/RatingViewExample";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,14 +322,6 @@
 			buildConfigurations = (
 				8FDEA6CF1BC05057000A0372 /* Debug */,
 				8FDEA6D01BC05057000A0372 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		8FDEA6D11BC05057000A0372 /* Build configuration list for PBXNativeTarget "RatingViewExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FDEA6D21BC05057000A0372 /* Debug */,
-				8FDEA6D31BC05057000A0372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
