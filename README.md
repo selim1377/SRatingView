@@ -40,6 +40,7 @@ The only thing left is to display the actual rate value:
 ```
 
 Result is here:
+
 ![Result](/RatingViewExample/sample.png?raw=true)
 
 # Notes
