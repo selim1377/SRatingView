@@ -7,7 +7,7 @@ SRatingView simplifies rating visulatisation via a simple UIView subclass. It al
 ## Requirements
   - iOS 6.0 or higher
   - Requires ARC
-  - 
+
 ## Installation
 
 The easiest way to use SRatingView in your app is via [CocoaPods](http://cocoapods.org/ "CocoaPods").
