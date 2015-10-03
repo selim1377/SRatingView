@@ -14,8 +14,8 @@
 		8FDEA6BC1BC05057000A0372 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA6BB1BC05057000A0372 /* Images.xcassets */; };
 		8FDEA6BF1BC05057000A0372 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA6BD1BC05057000A0372 /* LaunchScreen.xib */; };
 		8FDEA6D61BC0506F000A0372 /* SRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEA6D51BC0506F000A0372 /* SRatingView.m */; };
-		8FDEA70A1BC05A7A000A0372 /* empty-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA7091BC05A7A000A0372 /* empty-star.png */; };
-		8FDEA70C1BC05A88000A0372 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA70B1BC05A88000A0372 /* star.png */; };
+		8FDEA7101BC05B32000A0372 /* rating-star-empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA70F1BC05B32000A0372 /* rating-star-empty@2x.png */; };
+		8FDEA7121BC05B4C000A0372 /* rating-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA7111BC05B4C000A0372 /* rating-star@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +33,8 @@
 		8FDEA6CA1BC05057000A0372 /* RatingViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingViewExampleTests.m; sourceTree = "<group>"; };
 		8FDEA6D41BC0506F000A0372 /* SRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRatingView.h; sourceTree = "<group>"; };
 		8FDEA6D51BC0506F000A0372 /* SRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRatingView.m; sourceTree = "<group>"; };
-		8FDEA7091BC05A7A000A0372 /* empty-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "empty-star.png"; path = "Images.xcassets/rating-star-empty.imageset/empty-star.png"; sourceTree = "<group>"; };
-		8FDEA70B1BC05A88000A0372 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = "Images.xcassets/rating-star.imageset/star.png"; sourceTree = "<group>"; };
+		8FDEA70F1BC05B32000A0372 /* rating-star-empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rating-star-empty@2x.png"; sourceTree = "<group>"; };
+		8FDEA7111BC05B4C000A0372 /* rating-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rating-star@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 				8FDEA6B61BC05057000A0372 /* ViewController.m */,
 				8FDEA6D41BC0506F000A0372 /* SRatingView.h */,
 				8FDEA6D51BC0506F000A0372 /* SRatingView.m */,
-				8FDEA7091BC05A7A000A0372 /* empty-star.png */,
-				8FDEA70B1BC05A88000A0372 /* star.png */,
+				8FDEA70F1BC05B32000A0372 /* rating-star-empty@2x.png */,
+				8FDEA7111BC05B4C000A0372 /* rating-star@2x.png */,
 				8FDEA6B81BC05057000A0372 /* Main.storyboard */,
 				8FDEA6BB1BC05057000A0372 /* Images.xcassets */,
 				8FDEA6BD1BC05057000A0372 /* LaunchScreen.xib */,
@@ -170,8 +170,8 @@
 				8FDEA6BA1BC05057000A0372 /* Main.storyboard in Resources */,
 				8FDEA6BF1BC05057000A0372 /* LaunchScreen.xib in Resources */,
 				8FDEA6BC1BC05057000A0372 /* Images.xcassets in Resources */,
-				8FDEA70A1BC05A7A000A0372 /* empty-star.png in Resources */,
-				8FDEA70C1BC05A88000A0372 /* star.png in Resources */,
+				8FDEA7101BC05B32000A0372 /* rating-star-empty@2x.png in Resources */,
+				8FDEA7121BC05B4C000A0372 /* rating-star@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
